@@ -1,0 +1,998 @@
+/* Styling the Web page */
+body {
+	/* we can specify or not specify the width */
+	max-width: 1400px;
+	margin: 0 auto;
+}
+.body-grid{
+	display: grid;
+	grid-template-columns: 1fr 20fr 1fr;
+}
+/* First Web section */
+#first {	
+	/*Height wreck the design*/
+	/*height: 639px;*/
+	position: relative;
+	width: 100%;
+}
+.lady {
+	width: 100%;
+	height: auto;
+}
+
+
+.containerFirst {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	display: grid;
+	grid-gap: 1em;
+	/* position: relative;
+	top: -550px;
+	left: 690px;
+	width: 100%; */
+}
+
+.braces {
+	background: transparent;
+	/* display: flex; */
+	position: absolute;
+	top: 150px;
+	left: 0px;
+	width: 417px;
+	height: 277px;
+	background-image: transparent 0% 0% no-repeat padding-box;
+	mix-blend-mode: multiply;
+	opacity: 1;
+}
+
+.eon {
+	background: transparent;
+	/* display: flex; */
+	position: absolute;
+	/* align-self:flex-end; */
+	top: 210px;
+	left: 240px;
+	width: 104px;
+	height: 55px;
+	background: transparent  0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.invisible {
+	background: transparent;
+	/* display: flex; */
+	position: absolute;
+	/*I changed the top margin to fit the design*/
+	top: 210px;
+	left: 360px;
+	width: 99px;
+	height: 65px;
+	text-align: left;
+	letter-spacing: 0px;
+	color: #878A8C;
+	opacity: 1;
+	font-family: Sans-serif;
+	font-size: 26px;
+	line-height: 25px;
+	padding : 0;
+    margin : 0;
+}
+
+.ABI {
+	background: transparent;
+	/* display: flex; */
+	position: absolute;
+	top:0;
+	left:350px;
+	width: 155px;
+	height: 155px;
+	background: transparent 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.smile {
+	background: transparent;
+	/* display: flex; */
+	position: absolute;
+	top: 35px;
+	left: -5px;
+	width: 343px;
+	height: 58px;
+	text-align: right;
+	/* align-items: left; */
+	font: normal normal normal 59px/67px Hacen Casablanca Lt Regular;
+	letter-spacing: 0px;
+	color: #847C78;
+	opacity: 1;
+	font-family: 'Almarai', sans-serif;
+	font-size: 46px;
+	line-height: 25px;
+	font-weight: 500;
+	padding : 0;
+    margin : 0;
+}
+
+.smile2 {
+	background: transparent;
+	/* display: flex; */
+	position: absolute;
+	top: 35px;
+	left: -5px;
+	width: 343px;
+	height: 61px;
+	text-align: right;
+	/* align-items: left; */
+	font: normal normal normal 59px/67px Hacen Casablanca Lt Regular;
+	letter-spacing: 0px;
+	color: #847C78;
+	opacity: 1;
+	font-family: 'Almarai', sans-serif;
+	font-size: 46px;
+	font-weight: 1000;
+}
+
+.firstButton {
+	position: absolute;
+	top: 385px;
+	left: 95px;
+	width: 352px;
+	height: 76px;
+	background: #7B2D26 0% 0% no-repeat padding-box;
+	border-radius: 30px;
+	opacity: 1;
+}
+
+.buttonP {
+	/* centering the button was unfixed until we used height property, here I changed the font size to fit within button*/
+	font: normal normal normal 43px/53px Hacen Tunisia;
+	letter-spacing: 0px;
+	color: #F8F4F3;
+	margin: 14px 34px;
+	width: 284px;
+	height: 48px;
+	text-align: right;
+	opacity: 1;
+}
+/* Second Web section */
+#second {	
+	top: 596px;
+	/* left: 0px; */
+	width: 100%;
+	height: 592px;
+	background: #0B7A75 0% 0% no-repeat padding-box;
+	box-shadow: 0px 3px 6px #00000029;
+	opacity: 1;	
+}
+
+.section2_dgrid{
+	display: grid;
+	grid-template-columns:1fr 3fr 3fr 1fr;
+	grid-gap: 1em;
+	align-items: center;
+}
+.section2-img{
+	margin: 0 auto;
+}
+.main-text-grid{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-row-gap: 2em;
+}
+.text-grid{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 1em;
+	align-items: center;
+	text-align: right;
+}
+.text{
+	font: normal normal normal 22px/30px Droid Arabic Naskh;
+	letter-spacing: 0px;
+	color: #F0F3F5;
+}
+
+.numbers {
+	margin: -98px 20px 40px 1170px;
+	font-family: Hacen Tunisia;
+}
+.section2-container{
+	background: #0B7A75;
+	margin: 0;
+}
+.section2-header{
+	text-align: center;
+	color: #fff;
+	margin: 0;
+
+}
+
+.header {
+	margin: 0 auto;
+	/* width: 411px;
+	height: 42px; */
+	text-align: center;
+	font: normal normal normal 39px/46px Hacen Tunisia;
+	letter-spacing: 0px;
+	color: #fff;
+	opacity: 1;
+	padding-top: 30px;
+	padding-bottom: 40px ;
+}
+
+.paragraph {	
+	margin: 40px 20px 40px 800px;
+	box-sizing: border-box; 
+	width: 352px;
+	padding-right: -500px;
+	height: 72px; 
+	text-align: right;
+	font: normal normal normal 22px/30px Droid Arabic Naskh;
+	letter-spacing: 0px;
+	color: #F0F3F5;
+	opacity: 1;
+}
+
+.capture {
+	width: 417px;
+	height: 258px;
+	margin: -390px 250px;
+}
+/* Third Web section */
+#third {
+	top: 1177px;
+	width: 100%;
+	height: 662px;
+	background: #847C78 0% 0% no-repeat padding-box;
+	box-shadow: 0px 3px 6px #00000029;
+	opacity: 1;
+}
+
+.wrapper {
+	padding: 53px;
+	justify-content: center;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 400px 400px;
+	grid-template-rows: 350px 369px;
+	margin: 0 auto;
+	color: #444;
+  }
+  
+  .box {
+	background: #F0F3F5 0% 0% no-repeat padding-box;
+	border-radius: 12px;
+	padding: 20px;
+	grid-auto-rows: minmax((200px, 267px));
+	/* align-self: center; */
+  }
+
+  .main {
+	margin: 0 auto;	
+	width: 264px;
+	height: 97px;
+	text-align: center;
+	font: normal normal normal 46px/49px Hacen Tunisia;
+	font-weight: bold;
+	letter-spacing: 0px;
+	color: #19535F;
+	opacity: 1;
+  }
+
+  .price {
+	margin: 0 80px;
+	width: 169px;
+	height: 127px;
+	text-align: right;
+	letter-spacing: 0px;
+	color: #7B2D26;
+	opacity: 1;
+	font-family: Droid+Sans;
+	font-size: 100px;
+	font-weight: bold;
+  }
+
+  .textRed {
+	margin: 0 auto;
+	width: 197px;
+	height: 35px;
+	font: normal normal normal 31px/36px Hacen Tunisia;
+	letter-spacing: 0px;
+	color: #7B2D26;
+	opacity: 1;
+	font-weight: bold;	
+  }
+
+  .textBlue {
+	/* margin: 0 auto; */
+	margin: 0 55px;
+	width: 263px;
+	height: 48px;
+	text-align: left;
+	font: normal normal bold 23px/57px Droid Arabic Naskh;
+	letter-spacing: 0px;
+	color: #19535F;
+	opacity: 1;
+  }
+
+  .written {
+	margin: 0 auto;
+	left: 500px;
+	width: 600px;
+	height: 80px;
+  }
+
+  .thirdP {
+	margin: 0 190px;
+	/* margin: 0 auto; */
+	width: 467px;
+	height: 46px;
+	text-align: center;
+	letter-spacing: 0px;
+	color: #F0F3F5;
+	opacity: 1;
+	font-family: Droid;
+	font-size: 28px;
+  }
+
+  .thirdFinal {
+	/* margin: 0 auto;*/
+	margin: 0 160px;
+	width: 522px;
+	height: 44px;
+	text-align: left;
+	text-decoration: underline;
+	font: normal normal normal 42px/81px Hacen Tunisia;
+	letter-spacing: 0px;
+	color: #F0F3F5;
+	/* color: black; */
+	opacity: 1;
+  }
+/* Fourth Web section */
+#fourth {
+	width: 100%;
+	height: auto;
+	background: #F0F3F5 0% 0% no-repeat padding-box;
+	opacity: 1;
+	padding-bottom: 50px;
+}
+
+.pictures {
+	display: grid;
+	grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+	text-align: center;
+	grid-gap: 1em;
+	align-items: center;
+	/* grid-row-gap: 2em; */
+}
+
+.iron {	
+	display: grid;
+	grid-gap: 1em;
+	grid-template-columns: 1fr;
+	align-items: center;
+	padding: 50px;
+}
+
+.new {
+	display: grid;
+	grid-gap: 1em;
+	grid-template-columns: 1fr;
+	align-items: center;
+	padding: 50px;
+}
+
+.comparison__list {
+	/* margin: 0 auto; */
+	align-self: center;
+	text-align: center;
+	font: normal normal normal 39px/45px Hacen Tunisia Lt;
+	letter-spacing: 0px;
+	color: #847C78;
+	opacity: 1;
+}
+
+.comparison {
+	margin: 0 auto;
+	text-align: center;
+	font: normal normal normal 39px Hacen Tunisia Lt;
+	letter-spacing: 0px;
+	color: #847C78;
+	opacity: 1;
+}
+
+.explanation {
+	top: 250px;
+	width: 236px;
+	margin: 0 auto;
+	align-items: center;
+	font: normal normal normal 39px/45px Hacen Tunisia;
+	letter-spacing: 0px;
+	color: #847C78;
+	opacity: 1;
+}
+.check-grid{
+	margin: 0 auto;
+	display: grid;
+	grid-template-rows:4em 4em 4em 4em;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+/* Fifth Web section */
+#fifth {
+	/* top: 2391px; */
+	/* left: 0px; */
+	width: 100%;
+	/* height: 519px; */
+	background: #19535F 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.header-fifth {
+color: #fff;
+text-align: center;
+font: normal normal normal 47px/72px Hacen Tunisia;
+padding-top: 25px;
+}
+
+.wrapper2 { 
+	justify-content: center;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 260px 260px;
+    color: #444;
+
+  }
+
+  .box2 {
+    background-color: #0B7A75;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 34px;
+	text-align: center;
+	border-radius: 16px;
+	font-family: Hacen Tunisia;
+  }
+ .c {
+    grid-column: 1/2 ;
+    grid-row: 1 ;
+	height: 115px;
+	/* These three lines are for centering the content fit  */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  .d {
+    grid-column: 2/3;
+    grid-row: 1;
+	height: 115px;
+  }
+  .a {
+	padding: 20px 5px;
+    grid-column: 1 / 3;
+    grid-row: 2;
+	width: 536px;
+  }
+ 
+  .price2 {
+	margin: 0 auto;
+	margin-top:20px;
+	width: 507px;
+	height: 99px;
+	text-align: center;
+	font: normal normal normal 22px/30px Droid Arabic Naskh;
+	letter-spacing: 0px;
+	color: #F0F3F5;
+	opacity: 1;
+  }
+
+/* Footer Web section */
+#footer {
+	top: 2910px;
+	left: 0px;
+	width: 100%;
+	height: 193px;
+	background: #0B7A75 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.footerButton {
+    display:block;
+	/* height: 193px; */
+	margin: 0 auto;
+	/* centering the button was unfixed until we used height property */
+	
+}
+
+.secondButton {
+	padding: 30px 90px;
+	/* width: 720px; */
+	margin: 40px auto;
+	background: #F0F3F5 0% 0% no-repeat padding-box;
+	color: #7B2D26;
+	/* I did not find the Hacen Casablanca font, so I changed the font size*/
+	font: normal normal normal 43px/53px Hacen Tunisia;
+	font-weight: bold;
+	letter-spacing: 0px;
+	text-align: center;
+	box-shadow: 0px 3px 6px #00000029;
+	border-radius: 39px;
+	opacity: 1;
+}
+/* These are not displayed in Web page but they are in Mobile page */
+#first-mobile {
+	display: none;
+}
+
+#third-mobile {
+	display: none;
+}
+
+#fourth-mobile {
+	display: none;
+}
+
+/* This picture will only appear in mobile */
+/* .img-section2-mobile{
+	display: none;
+} */
+
+/* General media */
+@media screen and (max-width:839px) {
+	body {
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	#first, #second, #third{
+		display: none;
+	}
+}
+
+/* First Mobile section */
+@media screen and (max-width:839px) {
+#first-mobile, .first-mobile, .containerFirst-one-mobile, .containerFirst-two-mobile, .ABI-mobile, .smile-mobile, .smile2-mobile,
+.braces-mobile, .eon-mobile, .invisible-mobile, .firstButton-mobile, .buttonP-mobile, .new-first, .arrow  {
+	display: block;
+}
+/* #first-mobile{
+	width: 100%;
+	height: 1000px;
+} */
+.containerFirst-one-mobile {
+	margin: 0 auto;
+	object-fit:scale-down;
+}
+.ABI-mobile {
+	/* position: absolute; */
+	width:25%;
+	float: right;
+	margin-bottom: 10px;
+}
+
+.smile-mobile {
+	/* position: absolute; */
+	width:80%;
+	/* float: left; */
+	background: transparent;
+	text-align: center;
+	letter-spacing: 0px;
+	color: #847C78;
+	opacity: 1;
+	font-family: 'Almarai', sans-serif;
+	font-size: 28px;
+	line-height: 0px;
+	font-weight: 500;
+	padding-top: 20px;
+}
+.smile2-mobile {
+	/* position: absolute; */
+	width:80%;
+	/* float: left; */
+	background: transparent;
+	text-align: center;
+	/* font: normal normal normal 28px/33px Hacen Casablanca Lt Regular; */
+	letter-spacing: 0px;
+	color: #847C78;
+	opacity: 1;
+	font-family: 'Almarai', sans-serif;
+	font-size: 28px;
+	font-weight: 1000;
+}
+.firstButton-mobile {
+	width: 100%;
+	background: #7B2D26 0% 0% no-repeat padding-box;
+	border-radius: 50px;
+	margin:20px auto;
+	opacity: 1;
+}
+
+.buttonP-mobile{
+	font: normal normal normal 39px/25px Hacen Tunisia;
+	letter-spacing: 0px;
+	color: #F8F4F3;
+	width: 100%;
+	text-align: center;
+	opacity: 1;
+}
+.containerFirst-two-mobile {
+	position: relative;
+	margin: 0 auto;
+}
+.mobile-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	position: absolute;
+	top:8%	;
+	left: 50%;
+	align-items: center;
+	grid-gap: 0.5em;
+}
+.aligner-grid{
+	display: grid;
+	grid-template-columns: 5fr 1fr;
+}
+.braces-mobile {
+	margin:0 auto;
+	background: transparent;
+	/* position: absolute; */
+	width: 100%;
+	background-image: transparent 0% 0% no-repeat padding-box;
+	mix-blend-mode: multiply;
+	opacity: 1;
+}
+.eon-mobile{
+	/* position: absolute; */
+	background: transparent;
+	width: 100%;
+	height: auto;
+	background: transparent 0% 0% no-repeat padding-box;
+	opacity: 1;
+	/* float: right; */
+	/* margin-left: 260px;
+	margin-top:50px ; */
+}
+.invisible-mobile{
+	background: transparent;
+	/* position: absolute; */
+	/* width: 20%; */
+	text-align: left;
+	letter-spacing: 0px;
+	color: #878A8C;
+	opacity: 1;
+	font-family: Sans-serif;
+	font-size: 18px;
+	line-height: 25px;
+	/* float: right; */
+	/* margin-top:55px ;
+	margin-left: 370px; */
+}
+.new-first{
+	/* position: absolute; */
+	width: 100%;
+	text-align: center;
+	letter-spacing: 0px;
+	color: #0B7A75;
+	opacity: 1;
+	font-family: Sans-serif;
+	font-size: 20px;
+	/* margin-top:250px ;
+	margin-left: 210px; */
+	font: normal normal normal 18px/33pxHacen Tunisia;
+	font-weight: bold;
+}
+.arrow{
+	/* position: absolute;
+	align-items: center;
+	margin-top:280px ;
+	margin-left: 240px; */
+	margin: 0 auto;
+}
+
+}
+
+/* Second Mobile section */
+@media screen and (max-width:839px) {
+	#third-mobile {
+		display: block;
+		width: 100%;
+		height: auto;
+		background: #0B7A75 0% 0% no-repeat padding-box;
+		box-shadow: 0px 3px 6px #00000029;
+		opacity: 1;
+	}
+	.img-section2-mobile{
+		display: block;
+		width: 50%;
+		margin: 0 auto;
+	}
+	.new-third{
+		display: block;
+		width: 70%;
+		margin: 10px auto;
+		text-align: center;
+		/* padding: auto; */
+		font: normal normal normal 19px/22px Hacen Tunisia;
+		letter-spacing: 0px;
+		color: #F0F3F5;
+		opacity: 1;
+	}
+	.wrapper-mobile {
+		display:grid;
+		padding: 40px;
+		grid-gap: 1em;
+		align-items: center;
+		grid-template-columns: 1fr 1fr;
+	}
+	.box-mobile {
+		background: #F0F3F5 0% 0% no-repeat padding-box;
+		border-radius: 12px;
+		padding: 10px;
+	  }
+	
+	  .main-mobile {
+		margin: 0 auto;	
+		display: block;
+		width: 100%;
+		text-align: center;
+		font: normal normal normal 20px/21px Hacen Tunisia;
+		font-weight: bold;
+		letter-spacing: 0px;
+		color: #19535F;
+		opacity: 1;
+	  }
+	
+	  .price-mobile {
+		margin: 0 auto;
+		display: block;
+		width: 100%;
+		text-align: center;
+		letter-spacing: 0px;
+		color: #7B2D26;
+		opacity: 1;
+		font-family: Droid+Sans;
+		font-size: 44px;
+		font-weight: bold;
+	  }
+	
+	  .textRed-mobile {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		width: 100%;
+		font: normal normal normal 14px/15px Hacen Tunisia;
+		letter-spacing: 0px;
+		color: #7B2D26;
+		opacity: 1;
+		font-weight: bold;	
+	  }
+	
+	  .textBlue-mobile {
+		margin: -10px auto;
+		display: block;
+		width: 100%;
+		text-align: center;
+		font: normal normal bold 11px/25px Droid Arabic Naskh;
+		letter-spacing: 0px;
+		color: #19535F;
+		opacity: 1;
+	  }
+	
+	  .written-mobile {
+		/* display: contents; */
+		display: block;
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+		padding: 50%;
+	  }
+	
+	  .thirdP-mobile {
+		width: 100%;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		letter-spacing: 0px;
+		color: #F0F3F5;
+		opacity: 1;
+		font-family: Droid;
+		font-size: 15px;
+	  }
+	
+	  .thirdFinal-mobile {
+		display: block;
+		text-align: center;
+		width: 100%;
+		/* text-align: left; */
+		text-decoration: underline;
+		font: normal normal normal 23px/44px Hacen Tunisia;
+		letter-spacing: 0px;
+		color: #F0F3F5;
+		opacity: 1;
+	  }
+}
+/* Third Mobile section */
+@media screen and (max-width:839px) {
+	#fourth {
+		display: none
+	}
+	#fourth-mobile {
+		display: block;
+		width: 100%;
+		height: 250px;
+	}
+	.check-grid-mobile{
+		margin: 0 auto;
+		display: grid;
+		/* grid-template-rows:0.5em 0.5em 0.5em 0.5em; */
+	}
+	.pictures-mobile {
+		display: grid;
+		grid-template-columns: 1fr 3fr 3fr 3fr 1fr;
+		grid-gap: 1em;
+		/* align-items: center;
+		text-align: center; */
+		}
+		
+		.iron-mobile {	
+		display: grid;
+		grid-gap: 1em;
+		grid-template-columns: 1fr;
+		align-items: center;
+		padding: 5px;
+		}
+		
+		.new-mobile {
+			display: grid;
+			grid-gap: 1em;
+			grid-template-columns: 1fr;
+			align-items: center;
+			padding: 5px;
+		}
+		
+		.comparison__list-mobile {
+			text-align: center;
+			font-family: Hacen Tunisia Lt;
+			font-size: 18px;
+			letter-spacing: 0px;
+			color: #847C78;
+			opacity: 1;
+		}
+		
+		.comparison-mobile {
+			margin: 0 auto;
+			text-align: center;
+			font: normal normal normal 18px Hacen Tunisia Lt;
+			letter-spacing: 0px;
+			color: #847C78;
+			opacity: 1;
+		}
+		
+		.explanation-mobile {
+			display: block;
+			width: 100%;
+			margin: 0 auto;
+			text-align: center;
+			font: normal normal normal 18px/21px Hacen Tunisia;
+			letter-spacing: 0px;
+			color: #847C78;
+			opacity: 1;
+		}
+		
+		
+		.clearfix::after {
+			content: "";
+			clear: both;
+			display: table;
+		  }
+}
+/* The Fourth section */
+@media screen and (max-width:839px) {
+	#fifth {
+		display: block;
+		width: 100%;
+		height: auto;
+		background: #19535F 0% 0% no-repeat padding-box;
+		opacity: 1;
+	}
+	.header-fifth {
+		color: #fff;
+		text-align: center;
+		font: normal normal normal 26px/36px Hacen Tunisia;
+		padding-top: 25px;
+		}
+	
+	.wrapper2 { 
+		justify-content: center;
+		display: grid;
+		grid-gap: 8px;
+		grid-template-columns: auto auto;
+		color: #444;
+		padding: 50px;
+	  }
+	
+	  .box2 {
+		background-color: #0B7A75;
+		color: #fff;
+		border-radius: 5px;
+		padding: 0 10px;
+		font-size: 18px;
+		text-align: center;
+		border-radius: 16px;
+		font-family: Hacen Tunisia;
+	  }
+	 .c {
+		grid-column: 1/2 ;
+		grid-row: 1 ;
+		/* These three lines are for centering the content fit  */
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: auto;
+	  }
+	  .d {
+		grid-column: 2/3;
+		grid-row: 1;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: auto;
+	  }
+	  .a {
+		padding: 20px 10px;
+		grid-column: 1 / 3;
+		grid-row: 2;
+		width: auto;
+	  }
+	 
+	  .price2 {
+		display: block;
+		width: 80%;
+		margin: 0px auto;
+		align-items: center;
+		text-align: center;
+		font: normal normal normal 15px/21px Droid Arabic Naskh;
+		letter-spacing: 0px;
+		color: #F0F3F5;
+		opacity: 1;
+	  }
+	
+}
+
+/* The Footer */
+@media screen and (max-width:839px) {
+	#footer {
+		background: #0B7A75 0% 0% no-repeat padding-box;
+		opacity: 1;
+	}
+	
+	.footerButton {
+		display: inline-block;
+		justify-content:center;
+		margin: 0 auto;		
+		align-items: center;
+		/* centering the button was unfixed until we used height property */
+	}
+	
+	.secondButton {
+		margin: 20px auto;
+		/* width: 100%; */
+		background-color: #F0F3F5;
+		color: #7B2D26;
+		/* I did not find the Hacen Casablanca font, so I changed the font size*/
+		font: normal normal normal 30px Hacen Tunisia;
+		font-weight: bold;
+		letter-spacing: 0px;
+		/* text-align: center; */
+		box-shadow: 0px 3px 6px #00000029;
+		border-radius: 49px;
+		opacity: 1;
+	}
+	
+}
+ 
