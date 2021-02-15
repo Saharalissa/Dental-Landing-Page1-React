@@ -510,7 +510,7 @@ padding-top: 25px;
 }
 
 .secondButton {
-	padding: 30px 90px;
+	padding: auto auto;
 	/* width: 720px; */
 	margin: 40px auto;
 	background: #F0F3F5 0% 0% no-repeat padding-box;
@@ -973,15 +973,13 @@ padding-top: 25px;
 	
 	.footerButton {
 		display: inline-block;
-		justify-content:center;
+		width: 100%;
 		margin: 0 auto;		
-		align-items: center;
 		/* centering the button was unfixed until we used height property */
 	}
 	
 	.secondButton {
-		margin: 20px auto;
-		/* width: 100%; */
+		margin: 20px 20px;
 		background-color: #F0F3F5;
 		color: #7B2D26;
 		/* I did not find the Hacen Casablanca font, so I changed the font size*/
